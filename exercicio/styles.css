@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.rock {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-one {
+    height: 50px;
+    width: 50%
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttonheader {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buttonheader:hover {
+    border-color: #ff0044;
+}

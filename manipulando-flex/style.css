@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    background-color: darkgray;
+    min-height: 100vh;
+    display: flex;
+    gap: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+/* row-gap, apenas para itens, um abaixo do outro */
+/* column-gap, apenas para itens, um ao lado do outro */
+/* flex-direction: column deixa os itens um abaixo do outro */
+/* por padrão o direction é um ao lado do outro */
+/* justify-content faz centralizações horizontais */
+/* align-itemns para posicionamento vertical */
